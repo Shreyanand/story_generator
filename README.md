@@ -2,6 +2,10 @@
 
 # Data Driven Interactive Story Generation
 
+How it works?
+
+This is an interactive story generating system that uses human authoring along with the system's expertise to generate intriguing short stories. The system generates the first sentence of the story following which it makes suggestions for the next sentence. You can choose from the suggestions you see in the list or you can eneter a sentence which then becomes the part of the narration. This procedure continues till we have a short 5 sentence story.
+
 * interface.ipynb is the main file for running the code
 * It can be run in any python notebook environment (colab or jupyter)
 * It requires skip-thought model that can be installed following instructions here: https://github.com/ryankiros/skip-thoughts
